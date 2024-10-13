@@ -8,6 +8,11 @@ const ListNav = styled.nav`
     justify-content: space-between;
     background-color: #f6a217;
     margin: 0;
+
+    @media (max-width: 750px) {
+    flex-direction: row;
+    height: 8%;
+  }
 `
 
 const StyledLinks = styled(Link)`
@@ -26,7 +31,13 @@ const StyledLinks = styled(Link)`
     &:hover {
         background-color: #23266d; 
         color: white; 
+        
     }
+    @media (max-width: 750px) {
+    font-size: calc(2px + 2vw);
+    padding: 0.5rem;
+    margin: 0.2rem;
+  }
 `
 
 export default function Navbar() {
