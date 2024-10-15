@@ -2,7 +2,7 @@ import {styled} from "styled-components";
 
 
 const FixedFooter = styled.footer`
-    position: absolute;
+    position: relative;
     flex-shrink: 0;
     width: 100%;
     text-align: center;

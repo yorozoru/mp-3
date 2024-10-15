@@ -11,11 +11,13 @@ import Documents from "./components/pages/documents"
 
 
 const TheGrandDiv = styled.div`
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
     line-height: 1.5;
     background-color: white;
     color: black;
-    
 
     @media (max-width: 750px) {
       font-size: calc(2px + 2vw);
@@ -28,6 +30,8 @@ const TheGrandDiv = styled.div`
 const NavMainWrapper = styled.div`
   display: flex;
   flex-direction: row;
+  height: 100%;
+  flex-grow: 1;
 
   @media (max-width: 750px){
     flex-direction: column;
