@@ -1,28 +1,27 @@
 import { styled } from "styled-components";
-import useTitleChanger from "../title_changer";
+import useTitleChanger from "../useTitleChanger";
 
 const StyledMain = styled.main`
-  padding: 0 2% 1% 2%;
+  padding: 0 2% 4% 2%;
 `;
 
 const StyledPDFWrapper = styled.div`
   position: relative;
-  padding-bottom: 56.25%;
   width: 70vw;
-  height: 100vh;
+  height: 100%;
   overflow: hidden;
   background: #ccc;
-
   @media (max-width: 750px) {
     padding-bottom: 75%;
     width: 100%;
+    height: 100vh;
   }
 `;
 
 const StyledEmbed = styled.embed`
   position: absolute;
-  top: 0;
-  left: 0;
+  // top: 0;
+  // left: 0;
   width: 100%;
   height: 100%;
   border: none;

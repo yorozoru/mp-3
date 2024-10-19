@@ -1,5 +1,5 @@
 import {styled} from "styled-components";
-import useTitleChanger from "../title_changer";
+import useTitleChanger from "../useTitleChanger";
 
 const StyledMain = styled.main`
     padding: 0 2% 1% 2%;
