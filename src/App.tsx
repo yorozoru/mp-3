@@ -8,6 +8,7 @@ import {styled} from "styled-components"
 import Experiences from "./components/pages/experience"
 import Skills from "./components/pages/skills"
 import Documents from "./components/pages/documents"
+import Projects from "./components/pages/projects"
 
 
 const TheGrandDiv = styled.div`
@@ -49,6 +50,7 @@ const Root = () => {
           <Route path = "/education" element={<Education/>} />
           <Route path = "/experiences" element={<Experiences/>} />
           <Route path = "/skills" element={<Skills/>} />
+          <Route path = "/projects" element={<Projects/>} />
           <Route path = "/documents" element={<Documents/>} />
         </Routes>
       </NavMainWrapper>
