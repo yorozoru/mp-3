@@ -1,4 +1,5 @@
 import {styled} from "styled-components";
+import { Link } from "react-router-dom";
 
 
 const FixedFooter = styled.footer`
@@ -13,7 +14,7 @@ const FixedFooter = styled.footer`
 `
 export default function StyledFooter (){
     return (
-        <FixedFooter>All Rights Reserved by Dillan Pho <a href="https://www.linkedin.com/in/dillan-pho/">Credits</a>©</FixedFooter>
+        <FixedFooter>All Rights Reserved by Dillan Pho <Link to="https://www.linkedin.com/in/dillan-pho/">Credits</Link>©</FixedFooter>
     )
 
 }
