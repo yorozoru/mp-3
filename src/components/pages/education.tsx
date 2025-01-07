@@ -13,7 +13,7 @@ export default function Education() {
             <p>
             <strong>Boston University</strong><br/>
             B.A. in Computer Science<br/>
-            Expected <b>May 2025</b>.
+            <b>January 2025</b>.
             </p>
 
         <br/><br/>

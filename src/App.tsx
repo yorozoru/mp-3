@@ -8,7 +8,7 @@ import {styled} from "styled-components"
 import Experiences from "./components/pages/experience"
 import Skills from "./components/pages/skills"
 import Documents from "./components/pages/documents"
-import Projects from "./components/pages/projects"
+import Projects from "./components/pages/projects_old"
 
 
 const TheGrandDiv = styled.div`
